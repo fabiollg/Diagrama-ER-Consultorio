@@ -311,7 +311,7 @@
                 <mxCell id="92" value="tratamento" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="31" y="792" width="160" height="128" as="geometry"/>
                 </mxCell>
-                <mxCell id="93" value="+id_tratamento (PK)&#10;+id_consulta (FK)&#10;+id_material (FK)&#10;+procedimentos&#10;+custo_tratamento&#10;" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="92">
+                <mxCell id="93" value="+id_tratamento (PK)&#10;+id_consulta (FK)&#10;+id_material (FK)&#10;+procedimentos&#10;+custo_tratamento&#10;+obs_tratamento&#10;" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="92">
                     <mxGeometry y="30" width="160" height="98" as="geometry"/>
                 </mxCell>
                 <mxCell id="94" value="material" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" vertex="1" parent="1">
