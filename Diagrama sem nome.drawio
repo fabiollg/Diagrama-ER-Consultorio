@@ -147,8 +147,14 @@
                 <mxCell id="87" value="dados_pessoais" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" vertex="1" parent="1">
                     <mxGeometry x="40" y="637" width="160" height="323" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="+CPF (PK)&#10;+nome&#10;+celular&#10;+idade&#10;+estado_civil&#10;+email&#10;+work&#10;+gender&#10;+convenio&#10;+CEP&#10;+ad-number&#10;+street&#10;+district&#10;+city&#10;+state&#10;+country&#10;+anamnese (FK)&#10;+id_pac (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="87">
+                <mxCell id="88" value="+CPF (PK)&#10;+nome&#10;+celular&#10;+idade&#10;+estado_civil&#10;+email&#10;+work&#10;+gender&#10;+convenio&#10;+CEP&#10;+ad-number&#10;+street&#10;+district&#10;+city&#10;+state&#10;+country&#10;+id_anamnese (FK)&#10;+id_pac (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="87">
                     <mxGeometry y="30" width="160" height="293" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="anamnese" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="640" width="160" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="+id_anamnese (PK)&#10;+problem&#10;+visit&#10;+medical&#10;+allergies&#10;+allergies-desc&#10;+heart&#10;+heart-desc&#10;+benz&#10;+benz-problem&#10;+dipirona&#10;+dip-problem&#10;+pressure&#10;+press-med&#10;+press-medicine&#10;+renal&#10;+renal-problem&#10;+diabete&#10;+hepatite&#10;+anest&#10;+anest-problem&#10;+protese&#10;+marcap&#10;+transf&#10;+droga&#10;+fuma&#10;+gravida&#10;+escovacao&#10;+fio-dental&#10;+CPF_pac (FK)&#10;+id_pac (FK)&#10;+id_dadospessoais (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="90">
+                    <mxGeometry y="30" width="160" height="480" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
