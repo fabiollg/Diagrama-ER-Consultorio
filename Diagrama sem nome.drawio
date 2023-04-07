@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-        <mxGraphModel dx="1315" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+        <mxGraphModel dx="986" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -96,7 +96,7 @@
                 <mxCell id="53" value="paciente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="219" y="493" width="160" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="+id_pac (PK)&#10;+id_consulta (FK)&#10;+id_agendamento (FK)&#10;+CPF_pac (FK)&#10;+id_responsavel&#10;+id_convenio" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="53" vertex="1">
+                <mxCell id="54" value="+id_pac (PK)&#10;+id_consulta (FK)&#10;+id_agendamento (FK)&#10;+CPF_pac (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="53" vertex="1">
                     <mxGeometry y="30" width="160" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="dados_pac" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
