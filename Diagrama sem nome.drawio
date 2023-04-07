@@ -100,10 +100,10 @@
                     <mxGeometry y="30" width="160" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="dados_pac" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="490" width="160" height="240" as="geometry"/>
+                    <mxGeometry x="400" y="490" width="160" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="+CPF_pac (PK)&#10;+id_preenchedor&#10;+id_pac (FK)&#10;+nome_pac&#10;+email_pac&#10;+sexo_pac&#10;+telefone_pac&#10;+anamnese&#10;+endereço_pac&#10;+data_nasc_pac&#10;+profissao_pac&#10;+estado_civil_pac&#10;+rg_pac&#10;+id_responsavel (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="55" vertex="1">
-                    <mxGeometry y="30" width="160" height="210" as="geometry"/>
+                <mxCell id="56" value="+CPF_pac (PK)&#10;+id_pac (FK)&#10;+id_anamnese (FK)&#10;+id_dadospessoais (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="55" vertex="1">
+                    <mxGeometry y="30" width="160" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="solicita" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="311" y="261" width="120" height="60" as="geometry"/>
@@ -133,16 +133,22 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="81" value="agenda" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="490" width="160" height="190" as="geometry"/>
+                    <mxGeometry x="570" y="490" width="160" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="82" value="+id_agendamento (PK)&#10;+CRO (FK)&#10;+data_solicitacao&#10;+hora_solicitacao&#10;+id_agendador&#10;+id_pac (FK)&#10;+data_agendamento&#10;+hora_agendamento&#10;+aviso_confirmacao&#10;+status_confirmacao" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="81" vertex="1">
                     <mxGeometry y="30" width="160" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="consulta" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="759" y="490" width="160" height="170" as="geometry"/>
+                    <mxGeometry x="740" y="490" width="160" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="+id_consulta (PK)&#10;+data_consulta&#10;+hora_inicio&#10;+hora_termino&#10;+id_pac (FK)&#10;+CRO (FK)&#10;+CPF_assist (FK)&#10;+id_tratamento (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="85" vertex="1">
                     <mxGeometry y="30" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="dados_pessoais" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="637" width="160" height="323" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="+CPF (PK)&#10;+nome&#10;+celular&#10;+idade&#10;+estado_civil&#10;+email&#10;+work&#10;+gender&#10;+convenio&#10;+CEP&#10;+ad-number&#10;+street&#10;+district&#10;+city&#10;+state&#10;+country&#10;+anamnese (FK)&#10;+id_pac (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="87">
+                    <mxGeometry y="30" width="160" height="293" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
