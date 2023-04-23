@@ -93,16 +93,10 @@
                         <mxPoint x="631" y="231" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="paciente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="219" y="493" width="160" height="130" as="geometry"/>
+                <mxCell id="53" value="pacient" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="630" width="160" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="+id_pac (PK)&#10;+id_consulta (FK)&#10;+id_agendamento (FK)&#10;+CPF_pac (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="53" vertex="1">
-                    <mxGeometry y="30" width="160" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="dados_pac" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="400" y="490" width="160" height="130" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="+CPF_pac (PK)&#10;+id_pac (FK)&#10;+id_anamnese (FK)&#10;+id_dadospessoais (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="55" vertex="1">
+                <mxCell id="54" value="+id_pac (PK)&#10;+id_consulta (FK)&#10;+id_agendamento (FK)&#10;+CPF_pac (FK)&#10;+id_anamnese (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="53" vertex="1">
                     <mxGeometry y="30" width="160" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="solicita" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
@@ -123,7 +117,7 @@
                         <mxPoint x="-40" y="150" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="77" value="dados_pessoais" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
+                <mxCell id="77" value="dados_paciente" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="160" y="50" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;" parent="1" source="11" target="77" edge="1">
@@ -133,28 +127,31 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="81" value="agenda" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="490" width="160" height="190" as="geometry"/>
+                    <mxGeometry x="40" y="770" width="160" height="190" as="geometry"/>
                 </mxCell>
                 <mxCell id="82" value="+id_agendamento (PK)&#10;+CRO (FK)&#10;+data_solicitacao&#10;+hora_solicitacao&#10;+id_agendador&#10;+id_pac (FK)&#10;+data_agendamento&#10;+hora_agendamento&#10;+aviso_confirmacao&#10;+status_confirmacao" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="81" vertex="1">
                     <mxGeometry y="30" width="160" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="consulta" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="740" y="490" width="160" height="170" as="geometry"/>
+                    <mxGeometry x="570" y="493" width="160" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="+id_consulta (PK)&#10;+data_consulta&#10;+hora_inicio&#10;+hora_termino&#10;+id_pac (FK)&#10;+CRO (FK)&#10;+CPF_assist (FK)&#10;+id_tratamento (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="85" vertex="1">
                     <mxGeometry y="30" width="160" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="87" value="dados_pessoais" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="637" width="160" height="323" as="geometry"/>
+                <mxCell id="87" value="dados_paciente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="211" y="493" width="160" height="317" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" value="+CPF (PK)&#10;+nome&#10;+celular&#10;+idade&#10;+estado_civil&#10;+email&#10;+work&#10;+gender&#10;+convenio&#10;+CEP&#10;+ad-number&#10;+street&#10;+district&#10;+city&#10;+state&#10;+country&#10;+id_anamnese (FK)&#10;+id_pac (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="87">
-                    <mxGeometry y="30" width="160" height="293" as="geometry"/>
+                <mxCell id="88" value="+CPF (PK)&#10;+nome&#10;+celular&#10;+idade&#10;+estado_civil&#10;+email&#10;+work&#10;+gender&#10;+convenio&#10;+CEP&#10;+ad_number&#10;+street&#10;+district&#10;+city&#10;+state&#10;+country&#10;+id_anamnese (FK)&#10;+id_pac (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="87" vertex="1">
+                    <mxGeometry y="30" width="160" height="287" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="anamnese" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="640" width="160" height="510" as="geometry"/>
+                <mxCell id="90" value="anamnese" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="493" width="160" height="497" as="geometry"/>
                 </mxCell>
-                <mxCell id="91" value="+id_anamnese (PK)&#10;+problem&#10;+visit&#10;+medical&#10;+allergies&#10;+allergies-desc&#10;+heart&#10;+heart-desc&#10;+benz&#10;+benz-problem&#10;+dipirona&#10;+dip-problem&#10;+pressure&#10;+press-med&#10;+press-medicine&#10;+renal&#10;+renal-problem&#10;+diabete&#10;+hepatite&#10;+anest&#10;+anest-problem&#10;+protese&#10;+marcap&#10;+transf&#10;+droga&#10;+fuma&#10;+gravida&#10;+escovacao&#10;+fio-dental&#10;+CPF_pac (FK)&#10;+id_pac (FK)&#10;+id_dadospessoais (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" vertex="1" parent="90">
-                    <mxGeometry y="30" width="160" height="480" as="geometry"/>
+                <mxCell id="92" style="edgeStyle=none;html=1;" parent="90" source="91" target="90" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="+id_anamnese (PK)&#10;+problem&#10;+visit&#10;+medical&#10;+allergies&#10;+allergies_desc&#10;+heart&#10;+heart-desc&#10;+benz&#10;+benz_problem&#10;+dipirona&#10;+dip_problem&#10;+pressure&#10;+press_med&#10;+press_medicine&#10;+renal&#10;+renal_problem&#10;+diabete&#10;+hepatite&#10;+anest&#10;+anest_problem&#10;+protese&#10;+marcap&#10;+transf&#10;+droga&#10;+fuma&#10;+gravida&#10;+escovacao&#10;+fio_dental&#10;+CPF_pac (FK)&#10;+id_pac (FK)&#10;+id_dadospessoais (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="90" vertex="1">
+                    <mxGeometry y="30" width="160" height="467" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
