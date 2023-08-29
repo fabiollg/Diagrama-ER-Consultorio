@@ -129,13 +129,13 @@
                 <mxCell id="81" value="agenda" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="40" y="770" width="160" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="+id_agendamento (PK)&#10;+CRO (FK)&#10;+data_solicitacao&#10;+hora_solicitacao&#10;+id_agendador&#10;+id_pac (FK)&#10;+data_agendamento&#10;+hora_agendamento&#10;+aviso_confirmacao&#10;+status_confirmacao" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="81" vertex="1">
+                <mxCell id="82" value="+id_agendamento (PK)&#10;+CRO (FK)&#10;+data_solicitacao&#10;+hora_solicitacao&#10;+id_pac (FK)&#10;+data_agendamento&#10;+hora_agendamento&#10;+status_confirmacao" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="81" vertex="1">
                     <mxGeometry y="30" width="160" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="consulta" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="570" y="493" width="160" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="+id_consulta (PK)&#10;+data_consulta&#10;+hora_inicio&#10;+hora_termino&#10;+id_pac (FK)&#10;+CRO (FK)&#10;+CPF_assist (FK)&#10;+id_tratamento (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="85" vertex="1">
+                <mxCell id="86" value="+id_consulta (PK)&#10;+data_consulta&#10;+hora_inicio&#10;+hora_termino&#10;+id_pac (FK)&#10;+CRO (FK)" style="align=left;strokeColor=#36393d;fillColor=#eeeeee;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#000000;" parent="85" vertex="1">
                     <mxGeometry y="30" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="87" value="dados_paciente" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#eeeeee;strokeColor=#36393d;fontColor=#000000;" parent="1" vertex="1">
